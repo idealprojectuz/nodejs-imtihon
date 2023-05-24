@@ -1,0 +1,19 @@
+const fs = require("fs");
+class Io {
+  dir;
+  constructor(dir) {
+    this.dir = dir;
+  }
+  async read() {
+    return await JSON.parse(await fs.promises.readFile(this.dir));
+  }
+  async write(chunk) {
+    const data = await this.read();
+    data.push(chunk);
+    fs.promises.writeFile(this.dir, JSON.stringify(data, null, 4));
+  }
+  async edit(chunk) {
+    fs.promises.writeFile(this.dir, JSON.stringify(chunk, null, 4));
+  }
+}
+module.exports = Io;

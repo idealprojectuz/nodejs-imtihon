@@ -1,0 +1,26 @@
+[
+  {
+    "id": 2,
+    "title": "test",
+    "category": "testing",
+    "authorId": 1
+  },
+  {
+    "id": 4,
+    "title": "test",
+    "category": "testing",
+    "authorId": 1
+  },
+  {
+    "id": 5,
+    "title": "test",
+    "category": "testing",
+    "authorId": 2
+  },
+  {
+    "id": 5,
+    "title": "test",
+    "category": "testing",
+    "authorId": 3
+  }
+]

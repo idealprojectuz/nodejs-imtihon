@@ -1,0 +1,26 @@
+[
+    {
+        "id": 2,
+        "firstName": "Masanov",
+        "lastName": "Jumabek",
+        "email": "masanov_j@gmail.com",
+        "password": "testuser",
+        "role": "customer"
+    },
+    {
+        "id": 4,
+        "firstName": "Hayotbek",
+        "lastName": "Samandarov",
+        "email": "testing@gmail.com",
+        "password": "$2b$10$cp8NcEhXpCaQDUI.PzIyY.ifk4kowUE.Jdb/Y/ueh2fWt.5UFOxEW",
+        "role": "superAdmin"
+    },
+    {
+        "id": 5,
+        "firstName": "Hayobek",
+        "lastName": "Samandarov",
+        "email": "support@afex.uz",
+        "password": "$2b$10$kqv28b2ntY14K2HiZal8weKuQWQeZJeOnBrQ3gg2IxocbSe5HQBim",
+        "role": "admin"
+    }
+]
